@@ -21,6 +21,10 @@ databases:
     - l_givewell_missionphilanthropy_org
     - l_cms_givewell_missionphilanthropy_org
 
+variables:
+    - key: APP_ENV
+      value: local
+
 # blackfire:
 #     - id: foo
 #       token: bar
