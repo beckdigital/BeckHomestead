@@ -10,16 +10,16 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/Development/beck
+    - map: ~/Projects/Beck/development
       to: /home/vagrant/projects
 
 sites:
-    - map: l.givewell.com
-      to: /home/vagrant/projects/givewell/www/httpdocs
+    - map: l.givewell.missionphilanthropy.org
+      to: /home/vagrant/projects/missionphilanthropy.org/givewell/www/httpdocs
 
 databases:
-    - dev_givewell
-    - l.cms.givewell
+    - l_givewell_missionphilanthropy_org
+    - l_cms_givewell_missionphilanthropy_org
 
 # blackfire:
 #     - id: foo
