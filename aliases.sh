@@ -3,7 +3,7 @@ function beck() {
 }
 
 function beck-run() {
-    PROJECTPATH=${$(pwd)##*Development/}
+    PROJECTPATH=${$(pwd)##*Projects/Beck/development/}
     echo $(beck ssh -- -t "cd projects/$PROJECTPATH && $*")
 }
 
