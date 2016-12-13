@@ -20,7 +20,9 @@ sites:
     - map: l.missionphilanthropy.org
       to: /home/vagrant/projects/missionphilanthropy.org/www/var/www/vhosts/missionphilanthropy.org/httpdocs
     - map: l.dashboard.missionphilanthropy.org
-      to: /home/vagrant/projects/missionphilanthropy.org/dashboard/httpdocs
+      to: /home/vagrant/projects/missionphilanthropy.org/dashboard/www/httpdocs
+    - map: l.devel.dashboard.missionphilanthropy.org
+      to: /home/vagrant/projects/missionphilanthropy.org/dashboard/devel/httpdocs
     - map: l.leadership.missionphilanthropy.org
       to: /home/vagrant/projects/missionphilanthropy.org/leadership/httpdocs
     - map: l.portal.missionphilanthropy.org
@@ -31,6 +33,7 @@ databases:
     - l_cms_givewell_missionphilanthropy_org
     - l_missionphilanthropy_org
     - l_dashboard_missionphilanthropy_org
+    - l_devel_dashboard_missionphilanthropy_org
     - l_leadership_missionphilanthropy_org
     - l_portal_missionphilanthropy_org
 
