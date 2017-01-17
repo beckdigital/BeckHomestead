@@ -15,6 +15,10 @@ folders:
       to: /home/vagrant/projects
 
 sites:
+    - map: l.devel.dashboard.missionphilanthropy.org
+      to: /home/vagrant/projects/missionphilanthropy.org/dashboard/devel/httpdocs
+    - map: l.schoolsearchk12.com
+      to: /home/vagrant/projects/schoolsearchk12.com/httpdocs
     - map: l.givewell.missionphilanthropy.org
       to: /home/vagrant/projects/missionphilanthropy.org/givewell/httpdocs
     - map: l.missionphilanthropy.org
@@ -27,6 +31,8 @@ sites:
       to: /home/vagrant/projects/missionphilanthropy.org/portal/httpdocs
 
 databases:
+    - l_schoolsearchk12_com
+    - l_devel_dashboard_missionphilanthropy_org
     - l_givewell_missionphilanthropy_org
     - l_cms_givewell_missionphilanthropy_org
     - l_missionphilanthropy_org
