@@ -26,7 +26,7 @@ A customized fork of Laravel Homestead will be used for local development. This 
 
 ### Setup
 1. Add the Laravel Homestead vagrant box
-    - `vagrant box add laravel/homestead`
+    - `vagrant box add laravel/homestead --box-version 0.5.0`
 2. Clone BeckHomestead (a customized fork of Laravel Homestead)
     - `cd ~ && git clone https://github.com/beckdigital/BeckHomestead.git`
 3. Add beck aliases to .bashrc
