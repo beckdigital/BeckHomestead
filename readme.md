@@ -177,3 +177,10 @@ Envoyer will be used to easily deploy builds to the server. You can create proje
     - Default branch
     - Different branch
     - Tag
+
+### dashboard.missionphilanthropy.org
+- Additional Notes
+    - Once your local env is setup, you will need to ssh into beck.
+    - sudo vim /etc/php/7.0/fpm/php.ini
+    - find 'error_reporting = E_ALL'
+    - change to 'error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT'
