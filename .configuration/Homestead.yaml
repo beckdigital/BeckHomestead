@@ -31,7 +31,7 @@ sites:
       to: /home/vagrant/projects/missionphilanthropy.org/leadership/httpdocs
     - map: l.portal.missionphilanthropy.org
       to: /home/vagrant/projects/missionphilanthropy.org/portal/httpdocs
-    - map: bid.donorbridge.com
+    - map: l.bid.donorbridge.com
       to: /home/vagrant/projects/donorbridge.com/bid/httpdocs
 
 databases:
