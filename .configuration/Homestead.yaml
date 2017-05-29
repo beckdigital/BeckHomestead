@@ -31,6 +31,8 @@ sites:
       to: /home/vagrant/projects/missionphilanthropy.org/leadership/httpdocs
     - map: l.portal.missionphilanthropy.org
       to: /home/vagrant/projects/missionphilanthropy.org/portal/httpdocs
+    - map: l.lovetogivehere.com
+      to: /home/vagrant/projects/lovetogivehere.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -42,6 +44,7 @@ databases:
     - l_devel_dashboard_missionphilanthropy_org
     - l_leadership_missionphilanthropy_org
     - l_portal_missionphilanthropy_org
+    - l_lovetogivehere_com
 
 variables:
     - key: APP_ENV
