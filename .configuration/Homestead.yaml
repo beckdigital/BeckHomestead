@@ -37,6 +37,8 @@ sites:
       to: /home/vagrant/projects/donorbridge.com/bid/httpdocs
     - map: l.appstarter.com
       to: /home/vagrant/projects/appstarter/httpdocs
+    - map: l.giving.missionphilanthropy.org
+      to: /home/vagrant/projects/giving.missionphilanthropy.org/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -51,6 +53,7 @@ databases:
     - l_lovetogivehere_com
     - l_bid_donorbridge_com
     - l_appstarter_com
+    - l_giving_missionphilanthropy_org
 
 variables:
     - key: APP_ENV
