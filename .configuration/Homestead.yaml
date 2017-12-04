@@ -22,7 +22,7 @@ sites:
     - map: l.givewell.missionphilanthropy.org
       to: /home/vagrant/projects/missionphilanthropy.org/givewell/httpdocs
     - map: l.missionphilanthropy.org
-      to: /home/vagrant/projects/missionphilanthropy.org/www/var/www/vhosts/missionphilanthropy.org/httpdocs
+      to: /home/vagrant/projects/missionphilanthropy.org/www/httpdocs
     - map: l.dashboard.missionphilanthropy.org
       to: /home/vagrant/projects/missionphilanthropy.org/dashboard/www/httpdocs
     - map: l.devel.dashboard.missionphilanthropy.org
