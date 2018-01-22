@@ -70,7 +70,9 @@ A customized fork of Laravel Homestead will be used for local development. This 
 
 3. Reprovision
     - `beck reload --provision`
-4. Adjust after.sh if needed
+4. Add to etc
+    - `sudo vim /etc/hosts`
+5. Adjust after.sh if needed
     - `~/BeckHomestead/.configuration/after.sh`
 
 ### Daily Usage
