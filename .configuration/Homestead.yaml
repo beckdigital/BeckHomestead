@@ -39,6 +39,8 @@ sites:
       to: /home/vagrant/projects/appstarter/httpdocs
     - map: l.giving.missionphilanthropy.org
       to: /home/vagrant/projects/giving.missionphilanthropy.org/httpdocs
+    - map: l.sealevel.com
+      to: /home/vagrant/projects/sealevel.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -54,6 +56,7 @@ databases:
     - l_bid_donorbridge_com
     - l_appstarter_com
     - l_giving_missionphilanthropy_org
+    - l_sealevel_com
 
 variables:
     - key: APP_ENV
