@@ -41,6 +41,8 @@ sites:
       to: /home/vagrant/projects/giving.missionphilanthropy.org/httpdocs
     - map: l.sealevel.com
       to: /home/vagrant/projects/sealevel.com/httpdocs
+    - map: l.caduceus.missionphilanthropy.org
+      to: /home/vagrant/projects/missionphilanthropy.org/caduceus/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -57,6 +59,7 @@ databases:
     - l_appstarter_com
     - l_giving_missionphilanthropy_org
     - l_sealevel_com
+    - l_caduceus_missionphilanthropy_org
 
 variables:
     - key: APP_ENV
