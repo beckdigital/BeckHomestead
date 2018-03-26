@@ -33,8 +33,8 @@ sites:
       to: /home/vagrant/projects/missionphilanthropy.org/portal/httpdocs
     - map: l.lovetogivehere.com
       to: /home/vagrant/projects/lovetogivehere.com/httpdocs
-    - map: l.bid.donorbridge.com
-      to: /home/vagrant/projects/donorbridge.com/bid/httpdocs
+    - map: l.bid.missionphilanthropy.org
+      to: /home/vagrant/projects/missionphilanthropy.org/bid/httpdocs
     - map: l.appstarter.com
       to: /home/vagrant/projects/appstarter/httpdocs
     - map: l.giving.missionphilanthropy.org
