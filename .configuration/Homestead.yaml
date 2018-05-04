@@ -33,14 +33,16 @@ sites:
       to: /home/vagrant/projects/missionphilanthropy.org/portal/httpdocs
     - map: l.lovetogivehere.com
       to: /home/vagrant/projects/lovetogivehere.com/httpdocs
-    - map: l.bid.donorbridge.com
-      to: /home/vagrant/projects/donorbridge.com/bid/httpdocs
+    - map: l.bid.missionphilanthropy.org
+      to: /home/vagrant/projects/missionphilanthropy.org/bid/httpdocs
     - map: l.appstarter.com
       to: /home/vagrant/projects/appstarter/httpdocs
     - map: l.giving.missionphilanthropy.org
       to: /home/vagrant/projects/giving.missionphilanthropy.org/httpdocs
     - map: l.sealevel.com
       to: /home/vagrant/projects/sealevel.com/httpdocs
+    - map: l.caduceus.missionphilanthropy.org
+      to: /home/vagrant/projects/missionphilanthropy.org/caduceus/httpdocs
     - map: l.locationlockbox.com
       to: /home/vagrant/projects/locationlockbox.com/httpdocs
 
@@ -55,10 +57,11 @@ databases:
     - l_leadership_missionphilanthropy_org
     - l_portal_missionphilanthropy_org
     - l_lovetogivehere_com
-    - l_bid_donorbridge_com
+    - l_bid_missionphilanthropy_com
     - l_appstarter_com
     - l_giving_missionphilanthropy_org
     - l_sealevel_com
+    - l_caduceus_missionphilanthropy_org
     - l_locationlockbox_com
 
 variables:
