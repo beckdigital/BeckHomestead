@@ -45,6 +45,8 @@ sites:
       to: /home/vagrant/projects/missionphilanthropy.org/caduceus/httpdocs
     - map: l.locationlockbox.com
       to: /home/vagrant/projects/locationlockbox.com/httpdocs
+    - map: l.colite.beckdigital.com
+      to: /home/vagrant/projects/colite.beckdigital.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -63,6 +65,7 @@ databases:
     - l_sealevel_com
     - l_caduceus_missionphilanthropy_org
     - l_locationlockbox_com
+    - l_colite_beckdigital_com
 
 variables:
     - key: APP_ENV
