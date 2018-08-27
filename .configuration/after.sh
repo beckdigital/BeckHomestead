@@ -8,3 +8,10 @@ sudo sed -i.bak "s/; error_reporting/ error_reporting/g" /etc/php/7.0/fpm/php.in
 sudo sed -i.bak "s/;   Default Value: E_ALL \& ~E_NOTICE \& ~E_STRICT \& ~E_DEPRECATED/   Default Value: E_ALL \& ~E_NOTICE \& ~E_STRICT \& ~E_DEPRECATED/g" /etc/php/7.0/fpm/php.ini
 
 sudo service nginx restart
+
+# Replace nginx with apache2
+# sudo service nginx stop
+# sudo apt-get purge nginx
+# sudo apt-get update
+# sudo apt-get install apache2
+# sudo service apache2 restart
