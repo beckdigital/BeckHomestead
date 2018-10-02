@@ -47,6 +47,10 @@ sites:
       to: /home/vagrant/projects/locationlockbox.com/httpdocs
     - map: l.colite.beckdigital.com
       to: /home/vagrant/projects/colite.beckdigital.com/httpdocs
+    - map: l.helisafe.beckdigital.com
+      to: /home/vagrant/projects/helisafe.beckdigital.com/httpdocs
+    - map: l.orlandohealth.com
+      to: /home/vagrant/projects/orlandohealth.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -66,6 +70,8 @@ databases:
     - l_caduceus_missionphilanthropy_org
     - l_locationlockbox_com
     - l_colite_beckdigital_com
+    - l_helisafe_beckdigital_com
+    - l_orlandohealth_com
 
 variables:
     - key: APP_ENV
