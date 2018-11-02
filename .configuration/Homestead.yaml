@@ -51,6 +51,8 @@ sites:
       to: /home/vagrant/projects/helisafe.beckdigital.com/httpdocs
     - map: l.orlandohealth.com
       to: /home/vagrant/projects/orlandohealth.com/httpdocs
+    - map: l.armadaanalytics.com
+      to: /home/vagrant/projects/armadaanalytics.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -72,6 +74,7 @@ databases:
     - l_colite_beckdigital_com
     - l_helisafe_beckdigital_com
     - l_orlandohealth_com
+    - l_armadaanalytics_com
 
 variables:
     - key: APP_ENV
