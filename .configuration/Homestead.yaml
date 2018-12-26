@@ -47,7 +47,7 @@ sites:
       to: /home/vagrant/projects/locationlockbox.com/httpdocs
     - map: l.colite.beckdigital.com
       to: /home/vagrant/projects/colite.beckdigital.com/httpdocs
-    - map: l.helisafe.beckdigital.com
+    - map: l.safehelideck.shell.com
       to: /home/vagrant/projects/helisafe.beckdigital.com/httpdocs
     - map: l.orlandohealth.com
       to: /home/vagrant/projects/orlandohealth.com/httpdocs
