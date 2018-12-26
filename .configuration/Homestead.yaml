@@ -53,6 +53,8 @@ sites:
       to: /home/vagrant/projects/orlandohealth.com/httpdocs
     - map: l.armadaanalytics.com
       to: /home/vagrant/projects/armadaanalytics.com/httpdocs
+    - map: l.wildwnc.org
+      to: /home/vagrant/projects/wildwnc.org/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -75,6 +77,7 @@ databases:
     - l_helisafe_beckdigital_com
     - l_orlandohealth_com
     - l_armadaanalytics_com
+    - l_wildwnc_org
 
 variables:
     - key: APP_ENV
