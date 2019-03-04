@@ -56,7 +56,7 @@ sites:
     - map: l.bmh.beckdigital.com
       to: /home/vagrant/projects/bmh.beckdigital.com/httpdocs
     - map: l.core.safehelideck.com
-      to: /home/vagrant/projects/safehelideck.com/httpdocs
+      to: /home/vagrant/projects/core.safehelideck.com/httpdocs
     - map: l.demo.safehelideck.com
       to: /home/vagrant/projects/demo.safehelideck.com/httpdocs
     - map: l.shell.safehelideck.com
