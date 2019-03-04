@@ -47,8 +47,6 @@ sites:
       to: /home/vagrant/projects/locationlockbox.com/httpdocs
     - map: l.colite.beckdigital.com
       to: /home/vagrant/projects/colite.beckdigital.com/httpdocs
-    - map: l.safehelideck.shell.com
-      to: /home/vagrant/projects/helisafe.beckdigital.com/httpdocs
     - map: l.orlandohealth.com
       to: /home/vagrant/projects/orlandohealth.com/httpdocs
     - map: l.armadaanalytics.com
@@ -57,6 +55,12 @@ sites:
       to: /home/vagrant/projects/wildwnc.org/httpdocs
     - map: l.bmh.beckdigital.com
       to: /home/vagrant/projects/bmh.beckdigital.com/httpdocs
+    - map: l.core.safehelideck.com
+      to: /home/vagrant/projects/safehelideck.com/httpdocs
+    - map: l.demo.safehelideck.com
+      to: /home/vagrant/projects/demo.safehelideck.com/httpdocs
+    - map: l.shell.safehelideck.com
+      to: /home/vagrant/projects/shell.safehelideck.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -76,11 +80,13 @@ databases:
     - l_caduceus_missionphilanthropy_org
     - l_locationlockbox_com
     - l_colite_beckdigital_com
-    - l_helisafe_beckdigital_com
     - l_orlandohealth_com
     - l_armadaanalytics_com
     - l_wildwnc_org
     - l_bmh_beckdigital.com
+    - l_core_safehelideck_com
+    - l_demo_safehelideck_com
+    - l_shell_safehelideck_com
 
 variables:
     - key: APP_ENV
