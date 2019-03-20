@@ -61,6 +61,8 @@ sites:
       to: /home/vagrant/projects/demo.safehelideck.com/httpdocs
     - map: l.shell.safehelideck.com
       to: /home/vagrant/projects/shell.safehelideck.com/httpdocs
+    - map: l.cttutor.com
+      to: /home/vagrant/projects/cttutor.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -87,6 +89,7 @@ databases:
     - l_core_safehelideck_com
     - l_demo_safehelideck_com
     - l_shell_safehelideck_com
+    - l_cttutor_com
 
 variables:
     - key: APP_ENV
