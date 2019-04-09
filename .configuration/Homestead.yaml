@@ -67,6 +67,8 @@ sites:
       to: /home/vagrant/projects/flexiblestaffcare.com
     - map: l.gos.beckdigital.com
       to: /home/vagrant/projects/gos.beckdigital.com/httpdocs
+    - map: l.hospitalstarter.com
+      to: /home/vagrant/projects/hospitalstarter.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -96,6 +98,7 @@ databases:
     - l_cttutor_com
     - l_flexiblestaffcare_iag_com
     - l_gos_beckdigital_com
+    - l_hospitalstarter_com
 
 variables:
     - key: APP_ENV
