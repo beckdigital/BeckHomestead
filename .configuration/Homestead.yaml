@@ -63,6 +63,10 @@ sites:
       to: /home/vagrant/projects/shell.safehelideck.com/httpdocs
     - map: l.cttutor.com
       to: /home/vagrant/projects/cttutor.com/httpdocs
+    - map: l.flexiblestaffcare.com
+      to: /home/vagrant/projects/flexiblestaffcare.com
+    - map: l.gos.beckdigital.com
+      to: /home/vagrant/projects/gos.beckdigital.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -90,6 +94,8 @@ databases:
     - l_demo_safehelideck_com
     - l_shell_safehelideck_com
     - l_cttutor_com
+    - l_flexiblestaffcare_iag_com
+    - l_gos_beckdigital_com
 
 variables:
     - key: APP_ENV
