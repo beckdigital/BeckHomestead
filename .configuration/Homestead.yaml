@@ -71,6 +71,8 @@ sites:
       to: /home/vagrant/projects/gos.beckdigital.com/httpdocs
     - map: l.hospitalstarter.com
       to: /home/vagrant/projects/hospitalstarter.com/httpdocs
+    - map: l.mcleodhealth.com
+      to: /home/vagrant/projects/mcleodhealth.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -102,6 +104,7 @@ databases:
     - l_flexiblestaffcare_iag_com
     - l_gos_beckdigital_com
     - l_hospitalstarter_com
+    - l_mcleodhealth_com
 
 variables:
     - key: APP_ENV
