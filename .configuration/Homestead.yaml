@@ -73,6 +73,8 @@ sites:
       to: /home/vagrant/projects/hospitalstarter.com/httpdocs
     - map: l.mcleodhealth.com
       to: /home/vagrant/projects/mcleodhealth.com/httpdocs
+    - map: l.bookerlab.com
+      to: /home/vagrant/projects/bookerlab.com/httpdocs
 
 databases:
     - l_schoolsearchk12_com
@@ -105,6 +107,7 @@ databases:
     - l_gos_beckdigital_com
     - l_hospitalstarter_com
     - l_mcleodhealth_com
+    - l_bookerlab_com
 
 variables:
     - key: APP_ENV
